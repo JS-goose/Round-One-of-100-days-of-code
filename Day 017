@@ -1,1 +1,57 @@
+### Day 17: January 17, 2018
 
+**Today's Progress:** Last day of switch statements.  I got the last quiz and assignment done for switch statements about an hour ago.
+
+**Thoughts:**  I lollygagged around a little today and didn't get as much done as I would have hoped.  My focus has been off a bit because of some personal stuff going one.  I never lose though...either I win or I learn!
+
+**Today's Work** : 
+
+var tSeconds = 60;
+while (tSeconds >= 0) {
+  switch (tSeconds) {
+    case 50:
+      console.log("Orbiter transfers from ground to internal power");
+      break;
+    case 31:
+      console.log("Ground launch sequencer is go for auto sequence start");
+      break;
+    case 16:
+      console.log("Activate launch pad sound suppression system");
+      break;
+    case 10:
+      console.log("Activate main engine hydrogen burnoff system");
+      break;
+    case 6:
+      console.log("Main engine start");
+      break;
+    case 0:
+      console.log("Solid rocket booster ignition and liftoff!");
+      break;
+    default:
+      console.log(tSeconds);
+  }
+  tSeconds--;
+}
+
+
+//Long form
+var tSeconds = 60;
+
+while (tSeconds >= 0) {
+  if (tSeconds === 50) {
+    console.log("Orbiter transfers from ground to internal power");
+  } else if (tSeconds === 31) {
+    console.log("Ground launch sequencer is go for auto sequence start");
+  } else if (tSeconds === 16) {
+    console.log("Activate launch pad sound suppression system");
+  } else if (tSeconds === 10) {
+    console.log("Activate main engine hydrogen burnoff system");
+  } else if (tSeconds === 6) {
+    console.log("Main engine start");
+  } else if (tSeconds === 0) {
+    console.log("Solid rocket booster ignition and liftoff!");
+  } else {
+    console.log("T-" + tSeconds + " seconds");
+  }
+  tSeconds--;
+}
