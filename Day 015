@@ -1,1 +1,52 @@
+### Day 15: January 15, 2018
+
+**Today's Progress:** Moving on to switch statements!  It's nice to get a refresher and depper dive on some of the things I learned in other courses.
+
+**Thoughts:**  I learned the hard way that switch statements do not work for every situation.  Just like with everything else in life, it's important to balance when to use these and when to use if...else statements.
+
+**Today's Work** : 
+var shirtWidth = 23;
+var shirtLength = 30;
+var shirtSleeve = 8.71;
+
+if (
+  shirtWidth >= 18 &&
+  shirtWidth < 20 &&
+  (shirtLength >= 28 && shirtLength < 29) &&
+  (shirtSleeve >= 8.13 && shirtSleeve < 8.38)
+) {
+  console.log("s");
+} else if (
+  shirtWidth >= 20 &&
+  shirtWidth < 22 &&
+  (shirtLength >= 29 && shirtLength < 30) &&
+  (shirtSleeve >= 8.38 && shirtSleeve < 8.63)
+) {
+  console.log("m");
+} else if (
+  shirtWidth >= 22 &&
+  shirtWidth < 24 &&
+  (shirtLength >= 30 && shirtLength < 31) &&
+  (shirtSleeve >= 8.63 && shirtSleeve < 8.88)
+) {
+  console.log("l");
+} else if (
+  shirtWidth >= 24 &&
+  shirtWidth < 26 &&
+  (shirtLength >= 31 && shirtLength < 33) &&
+  (shirtSleeve >= 8.88 && shirtSleeve < 9.63)
+) {
+  console.log("xl");
+} else if (
+  shirtWidth >= 26 &&
+  shirtWidth < 28 &&
+  (shirtLength >= 33 && shirtLength < 34) &&
+  (shirtSleeve >= 9.63 && shirtSleeve < 10.13)
+) {
+  console.log("2xl");
+} else if (shirtWidth >= 28 && shirtLength >= 34 && shirtSleeve >= 10.13) {
+  console.log("3xl");
+} else {
+  console.log("N/A");
+}
 
