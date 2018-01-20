@@ -1,1 +1,23 @@
+### Day 13: January 13, 2018
 
+**Today's Progress:** Started rolling through some of the conditionals parts of JavaScript in the Udacity course.  I feel like I'm learning so much and expanding my "toolkit" every day.
+
+**Thoughts:**  I'm building confidence with each lesson but JS still isn't fully cemented in my brain....yet!
+
+**Today's Work** : 
+
+var balance = 325.0;
+var checkBalance = true;
+var isActive = false;
+
+if (!checkBalance) {
+  console.log("Thank you. Have a nice day!");
+} else if (isActive && balance > 0) {
+  console.log("Your balance is $" + balance + ".");
+} else if (checkBalance && !isActive) {
+  console.log("Your account is no longer active.");
+} else if (checkBalance && balance === 0) {
+  console.log("Your account is empty.");
+} else {
+  console.log("Your balance is negative. Please contact bank.");
+}
