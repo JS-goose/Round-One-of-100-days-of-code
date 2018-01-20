@@ -1,1 +1,23 @@
+### Day 18: January 18, 2018
 
+**Today's Progress:** So I started functions today.  I learned a few different tricks and definitions about functions I was previously unaware of.
+
+**Thoughts:**  I thought I had a decent grip on the theory of functions and a semi-useful knowledge on the syntax.  I was wrong lol 
+I know it's a bit tricky to understand right now but with determination, motivation, and studying it will all become clear.
+
+**Today's Work** : 
+
+//Because who doesn't love cats?
+var catSays = function(max) {
+  var catMessage = "";
+  for (var i = 0; i <= max; i++) {
+    catMessage += "meow";
+  }
+  return catMessage;
+};
+
+function kitty(catSays) {
+  return "Hello " + catSays(3);
+}
+
+console.log(kitty(catSays));
