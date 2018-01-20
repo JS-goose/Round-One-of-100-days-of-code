@@ -1,1 +1,27 @@
+### Day 14: January 13, 2018
 
+**Today's Progress:** Still working on some conditionals with Udacity and Google
+
+**Thoughts:**  Conditionals are a very important piece to the JavaScript puzzle and I love learning about them.  I have a few projects in mind that help me practice as well.
+
+**Today's Work** : 
+
+var flavor = "strawberry";
+var vessel = "cone";
+var toppings = "cookies";
+
+if (
+  (flavor === "vanilla" || flavor === "chocolate") &&
+  (vessel === "cone" || vessel === "bowl") &&
+  (toppings === "sprinkles" || toppings === "peanuts")
+) {
+  console.log(
+    "I'd like two scoops of " +
+      flavor +
+      " ice cream in a " +
+      vessel +
+      " with " +
+      toppings +
+      "."
+  );
+}
