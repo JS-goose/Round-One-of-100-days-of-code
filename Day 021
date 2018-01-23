@@ -1,0 +1,29 @@
+### Day 21: January 21, 2018
+
+**Today's Progress:** I started with arrays today, yay!  I've been introduced to the basics a few times but I have always enjoyed these data structures.
+
+**Thoughts:** I feel more confident with arrays than functions but maybe that's because I don't know as much about them as I do functions?
+
+**Today's Work** :
+
+var rainbow = ["Red", "Orange", "Blackberry", "Blue"];
+
+// your code goes here
+rainbow.splice(2, 1, "Yellow", "Green", "Purple");
+console.log(rainbow);
+
+ /* Programming Quiz: Quidditch Cup (6-5)
+ */
+
+// your code goes here
+
+var team = ["Oliver Wood", "Angelina Johnson", "Katie Bell", "Alicia Spinnet", "George Weasley", "Fred Weasley", "Harry Potter"];
+console.log(hasEnoughPlayers(team));
+
+function hasEnoughPlayers(team) {
+    if (team.length >= 7) {
+        return true;
+    } else {
+        return false;
+    }
+}
