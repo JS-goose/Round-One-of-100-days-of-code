@@ -1,0 +1,30 @@
+### Day 22: January 22, 2018
+
+**Today's Progress:** Today I learned about another type of loop, more specifically an array method called .forEach() which iterates over an array.  These puppies are slick and I like them :D
+
+**Thoughts:** This type of loop seems to be more conscise with fewer lines of code.  Further inspection is needed in order to formulate an opinion lol  The below is a quiz that I did today.  I got the right outcome I just didn't do it specifically how the quiz asked.  After a little research I found out that the directions wanted me to change the index, not the element which was causing my syntax error.
+
+**Today's Work** :
+
+/*
+ * Programming Quiz: Another Type of Loop (6-8)
+ *
+ * Use the existing `test` variable and write a `forEach` loop
+ * that adds 100 to each number that is divisible by 3.
+ *
+ * Things to note:
+ *  - you must use an `if` statement to verify code is divisible by 3
+ *  - you can use `console.log` to verify the `test` variable when you're finished looping
+ */
+
+var test = [12, 929, 11, 3, 199, 1000, 7, 1, 24, 37, 4,
+    19, 300, 3775, 299, 36, 209, 148, 169, 299,
+    6, 109, 20, 58, 139, 59, 3, 1, 139
+];
+
+// Write your code here
+test.forEach(function(el,index,arr){
+    if(el % 3 === 0) {
+        test[index] += 100;
+    }
+});
