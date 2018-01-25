@@ -1,0 +1,25 @@
+### Day 25: January 25, 2018
+
+**Today's Progress:** I finished the array section of my Udacity course and moved on to objects.  I learned that these are key - value pairs of data.  I like working with them so far and the syntax seems fairly straight forward.
+
+**Thoughts:** Objects are the last data type I need to learn about before moving on to jQuery and DOM manipulation.  I'm pumped and excited to learn how to actually change things on a website as opposed to just building static sites.
+
+**Today's Work** :
+
+var facebookProfile = {
+  name: "Jonathan",
+  friends: 228,
+  messages: ["haha omg", "lol that's crazy", "no way!"],
+  postMessage: function postMessage(message) {
+      facebookProfile.messages.push("wow awesome!");
+  },
+  deleteMessage: function deleteMessage(index) {
+      facebookProfile.messages.splice(index, 1);
+  },
+  addFriend: function addFriend() {
+      facebookProfile.friends++;
+  },
+  removeFriend: function removeFriend() {
+      facebookProfile.friends--;
+  }
+};
