@@ -1,0 +1,55 @@
+### Day 23: January 23, 2018
+
+**Today's Progress:** Got a reintroduction to looping over array elements via the .forEach() method.  I enjoy this almost as much as the ole standby for loop except I typically forget to close my .forEach loop at the end of my statement thus throwing an error.  #Learning
+
+**Thoughts:** Everyday I feel more confident and find myself wanting to learn.  I realized while I was standing in a line that I was running through JavaScript syntax in my head instead of looking at my phone....crazy.
+
+**Today's Work** :
+
+/*
+ * Programming Quiz: Colors of the Rainbow (6-4)
+ */
+
+var rainbow = ["Red", "Orange", "Blackberry", "Blue"];
+
+// your code goes here
+rainbow.splice(2, 1, "Yellow", "Green", "Purple");
+console.log(rainbow);
+
+/*
+ * Programming Quiz: Quidditch Cup (6-5)
+ */
+
+// your code goes here
+
+var team = ["Oliver Wood", "Angelina Johnson", "Katie Bell", "Alicia Spinnet", "George Weasley", "Fred Weasley", "Harry Potter"];
+console.log(hasEnoughPlayers(team));
+
+function hasEnoughPlayers(team) {
+    if (team.length >= 7) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+/*
+ * Programming Quiz: Joining the Crew (6-6)
+ */
+
+var captain = "Mal";
+var second = "Zoe";
+var pilot = "Wash";
+var companion = "Inara";
+var mercenary = "Jayne";
+var mechanic = "Kaylee";
+
+var crew = [captain, second, pilot, companion, mercenary, mechanic];
+
+var doctor = "Simon";
+var sister = "River";
+var shepherd = "Book";
+
+// your code goes here
+crew.push(doctor, sister, shepherd);
+console.log(crew);
