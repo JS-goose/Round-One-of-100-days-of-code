@@ -1,3 +1,6 @@
+#So my first attempt ended on Day 030 because I had a sick child (strep throat <strong>and</strong> the flu).  I will be giving this another
+attempt in the near future.  #motivated
+
 # I've joined the #100DaysOfCode Challenge.
 
 ## Contents
